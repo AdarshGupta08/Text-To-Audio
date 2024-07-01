@@ -1,0 +1,35 @@
+/* Style for the textarea */
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+
+/* Style for the button */
+button {
+    padding: 10px;
+    background-color: #007bff; /* You can change this color to your preference */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+/* Style for the icon inside the button */
+button i {
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #000000;
+}
+
+body {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
